@@ -1,0 +1,14 @@
+
+.home-search{
+  border:  none;
+  background-color: rgb(226, 226, 226);
+  width: 60vw;
+  }
+
+.home-search:hover,.search:active,.search:focus{
+  border:  1px solid black ;
+  box-shadow: none;
+}
+
+
+

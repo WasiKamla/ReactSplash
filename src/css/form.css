@@ -1,0 +1,15 @@
+
+.search{
+  border:  none;
+  background-color: rgb(226, 226, 226);
+  border-radius: 20px;
+  width: 60vw;
+  }
+
+.search:hover,.search:active,.search:focus{
+  border:  1px solid black ;
+  box-shadow: none;
+}
+
+
+

@@ -1,0 +1,21 @@
+nav.navbar{
+  height: 70px;
+}
+
+.navbar-brand{
+  margin-top: -20px;
+}
+
+.navbar-brand::after{
+  content: "Photos for Everyone";
+  font-size: x-small;
+  position: absolute;
+  left: 5.3em;
+  bottom: 19px;
+}
+.img-fluid{
+  margin-top: -8px;
+}
+
+
+
