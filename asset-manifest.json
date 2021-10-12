@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactSplash/static/css/main.bf2214d0.chunk.css",
-    "main.js": "/ReactSplash/static/js/main.159ff6b8.chunk.js",
-    "main.js.map": "/ReactSplash/static/js/main.159ff6b8.chunk.js.map",
+    "main.js": "/ReactSplash/static/js/main.d60fdacf.chunk.js",
+    "main.js.map": "/ReactSplash/static/js/main.d60fdacf.chunk.js.map",
     "runtime-main.js": "/ReactSplash/static/js/runtime-main.b6958a24.js",
     "runtime-main.js.map": "/ReactSplash/static/js/runtime-main.b6958a24.js.map",
     "static/js/2.42250140.chunk.js": "/ReactSplash/static/js/2.42250140.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b6958a24.js",
     "static/js/2.42250140.chunk.js",
     "static/css/main.bf2214d0.chunk.css",
-    "static/js/main.159ff6b8.chunk.js"
+    "static/js/main.d60fdacf.chunk.js"
   ]
 }
