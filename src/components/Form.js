@@ -12,7 +12,7 @@ const Form = (props) => {
     e.preventDefault()
 
     props.searchImages(inputValue)
-    history.push("/search")
+    history.push("/search/" + inputValue)
   }
 
   return (

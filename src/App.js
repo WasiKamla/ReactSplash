@@ -12,7 +12,7 @@ const App = () => {
         <Route exact path="/ReactSplash/">
           <Home />
         </Route>
-        <Route path="/search">
+        <Route path="/search/:searchTerm">
           <Search />
         </Route>
       </Switch>

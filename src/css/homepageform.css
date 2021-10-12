@@ -1,7 +1,4 @@
-.homepage-form-container{
-  position: relative ;
-  width: fit-content !important;
-}
+
 
 .home-search{
   border:  none;
@@ -11,8 +8,9 @@
 
 .home-search:hover,.search:active,.search:focus{
   border:  1px solid black ;
-  box-shadow: none;
+  box-shadow: none !important;
 }
+
 
 
 

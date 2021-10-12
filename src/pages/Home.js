@@ -11,11 +11,12 @@ const Home = () => {
       <div className="home-form-container text-white">
         <div className="mx-3">
           <h1 className="text-white">ReactSplash</h1>
-          <p className="lead">Internet's best source for <a href="#">Free-usable-images</a></p>
+          <p className="lead my-1 d-none d-md-flex">Internet's best source for &nbsp;<a href="#">Free-usable-images</a></p>
         </div>
         <HomePageForm />
-        <h2 className="text-center my-4">Powered by <a href="#">Waseem Abbas</a></h2>
+
       </div>
+      <h2 className="author  text-white">Powered by&nbsp;<a href="#">Waseem Abbas</a></h2>
     </div>
   )
 }

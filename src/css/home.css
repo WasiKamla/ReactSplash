@@ -15,3 +15,11 @@ a{
 }a:hover{
   color: rgb(204, 204, 204);
 }
+.author{
+  position: absolute;
+  margin-top: 200px;  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: calc(2px + 2vw);
+}
