@@ -7,10 +7,4 @@ export const searchImages = inputValue => async dispatch => {
   })
 
 }
-export const HomeImages = () => async dispatch => {
-  const response = await Api.get("/photos/random?count=20")
-  dispatch({
-    type: "HOME_PAGE_IMAGES", payload: response.data
-  })
-}
 
