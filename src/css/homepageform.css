@@ -3,10 +3,11 @@
 .home-search{
   border:  none;
   background-color: rgb(226, 226, 226);
+  border:  1px solid rgb(197, 197, 197) ;
   width: 60vw;
   }
 
-.home-search:hover,.search:active,.search:focus{
+.home-search:hover,.home-search:active,.home-search:focus{
   border:  1px solid black ;
   box-shadow: none !important;
 }

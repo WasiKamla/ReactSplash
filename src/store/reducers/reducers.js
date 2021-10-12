@@ -1,5 +1,15 @@
 import { combineReducers } from "redux";
 
+
+const HomeImagesReducer = (homeImages = null, action) => {
+  if (action.type === "HOME_PAGE_IMAGES") {
+    let payload = action.payload
+    return payload
+  }
+  return homeImages
+}
+
+
 const ImagesReducer = (searchedImages = null, action) => {
   if (action.type === "SEARCH_IMAGES") {
     let payload = action.payload
@@ -9,5 +19,6 @@ const ImagesReducer = (searchedImages = null, action) => {
 }
 
 export default combineReducers({
+  HomePageImages: HomeImagesReducer,
   Images: ImagesReducer,
 })

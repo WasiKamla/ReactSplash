@@ -1,8 +1,28 @@
 import "../css/home.css"
 import HomePageForm from "../components/HomePageForm";
+import { connect } from "react-redux"
+import { HomeImages } from "../store/actions/actions"
+import Masonry from 'react-masonry-css'
+import { useEffect } from "react";
 
+//...
 
-const Home = () => {
+const Home = (props) => {
+
+  useEffect(() => {
+    props.HomeImages()
+
+  }
+  )
+
+  let images = props.images
+  const breakpointColumnsObj = {
+    default: 4,
+    1100: 3,
+    700: 2,
+    500: 1
+  };
+
   return (
     <div>
       <div className="img-container">
@@ -17,8 +37,26 @@ const Home = () => {
 
       </div>
       <h2 className="author  text-white">Powered by&nbsp;<a href="#">Waseem Abbas</a></h2>
+      <div className="row text-center" >
+
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column"
+        >
+          {images && images.map((image => (
+            <div key={image.id} >
+              <img className="img-fluid" src={image.urls.regular} className="card-img-top"
+                alt="images" />
+            </div>
+          )))}</Masonry>
+      </div>
     </div>
   )
 }
 
-export default Home;
+const mapStateToProps = (state) => {
+  return { images: state.HomePageImages }
+}
+
+export default connect(mapStateToProps, { HomeImages })(Home);

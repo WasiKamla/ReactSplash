@@ -20,7 +20,6 @@ const ImagesList = (props) => {
       <div className="container my-5">
         <hr />
         <div className="row text-center" >
-
           <Masonry
             breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid"
