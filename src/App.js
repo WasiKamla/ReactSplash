@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/ReactSplash/">
           <Home />
         </Route>
         <Route path="/search">

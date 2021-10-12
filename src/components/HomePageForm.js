@@ -17,7 +17,7 @@ const Form = (props) => {
 
   return (
     <div>
-      <div className='container'>
+      <div className='container homepage-form-container'>
         <div className="form-container mb-2">
           <form onSubmit={(e) => submitHandler(e)} >
             <input
