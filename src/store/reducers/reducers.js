@@ -19,6 +19,5 @@ const ImagesReducer = (searchedImages = null, action) => {
 }
 
 export default combineReducers({
-  HomePageImages: HomeImagesReducer,
   Images: ImagesReducer,
 })
