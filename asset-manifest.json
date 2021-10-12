@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ReactSplash/static/css/main.956da643.chunk.css",
-    "main.js": "/ReactSplash/static/js/main.cf52ff95.chunk.js",
-    "main.js.map": "/ReactSplash/static/js/main.cf52ff95.chunk.js.map",
+    "main.css": "/ReactSplash/static/css/main.bf2214d0.chunk.css",
+    "main.js": "/ReactSplash/static/js/main.42d97783.chunk.js",
+    "main.js.map": "/ReactSplash/static/js/main.42d97783.chunk.js.map",
     "runtime-main.js": "/ReactSplash/static/js/runtime-main.b6958a24.js",
     "runtime-main.js.map": "/ReactSplash/static/js/runtime-main.b6958a24.js.map",
-    "static/js/2.42250140.chunk.js": "/ReactSplash/static/js/2.42250140.chunk.js",
-    "static/js/2.42250140.chunk.js.map": "/ReactSplash/static/js/2.42250140.chunk.js.map",
+    "static/js/2.2a4bafc6.chunk.js": "/ReactSplash/static/js/2.2a4bafc6.chunk.js",
+    "static/js/2.2a4bafc6.chunk.js.map": "/ReactSplash/static/js/2.2a4bafc6.chunk.js.map",
     "index.html": "/ReactSplash/index.html",
-    "static/css/main.956da643.chunk.css.map": "/ReactSplash/static/css/main.956da643.chunk.css.map",
-    "static/js/2.42250140.chunk.js.LICENSE.txt": "/ReactSplash/static/js/2.42250140.chunk.js.LICENSE.txt"
+    "static/css/main.bf2214d0.chunk.css.map": "/ReactSplash/static/css/main.bf2214d0.chunk.css.map",
+    "static/js/2.2a4bafc6.chunk.js.LICENSE.txt": "/ReactSplash/static/js/2.2a4bafc6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6958a24.js",
-    "static/js/2.42250140.chunk.js",
-    "static/css/main.956da643.chunk.css",
-    "static/js/main.cf52ff95.chunk.js"
+    "static/js/2.2a4bafc6.chunk.js",
+    "static/css/main.bf2214d0.chunk.css",
+    "static/js/main.42d97783.chunk.js"
   ]
 }
